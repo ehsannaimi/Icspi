@@ -1,0 +1,36 @@
+name: community_app
+description: "Simple Flutter app (Android + PWA) navy & gold theme"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.2.2
+  google_fonts: ^4.0.5
+  http: ^1.5.0
+  intl: ^0.20.2
+  url_launcher: ^6.3.2
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/workgroups/
